@@ -10,4 +10,9 @@ router.get('/gp', function(req, res, next) {
   res.render('gp');
 });
 
+router.get('/gp/', function(req, res, next) {
+  res.render('gp');
+});
+
+
 module.exports = router;
